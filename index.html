@@ -3,12 +3,50 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-widith, initial-scale=1.0">
-    <title>WDD 131</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 – Dynamic Web Fundamentals – Eric JOhnson</title>
+    <meta name="description" content="This is a home page for Eric Jeremaih Johnson, 
+        it was made for his WDD 131 – Dynamic Web Fundamentals, 
+        its purpose is to show the skills learned in the class,
+        while being an about him page.">
+    <meta name="author" content="Eric Johnson">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD 131 - Eric Johnson</h1>
+    <header><span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+        <nav>
+            <a href="">LinkedIn</a>
+            <a href="https://byupw.instructure.com/.">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/omni/1?lang=eng&id=p26#p26">
+                Omni 1:26</a>
+            <a href="">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Eric Johnson</h1>
+        <section class="card about-me">
+            <h2>About Me</h2><img src="images/profile.jpg" alt="Self Profile">
+            <p>My name is Eric. My family moved a few times as I was growing up, but I have spent most of my life in
+                California. I now reside in Meridian, Idaho with my Mom ,two sisters and a brother in the area.</p>
+            <h3>Meridian, Idaho</h3><img src="images/meridian-idaho-flag.gif" alt="Meridian Idaho Flag" id="flag">
+            <p>Meridian, Idaho is in the United States of America, North-Western part. It is a suburb of Boise, the
+                captital of Idaho.</p>
+        </section>
+        <section class="card">
+            <h2>Web Dev Resoures</h2>
+            <ul>
+                <li><a href="https://fonts.google.com">Fonts</a></li>
+                <li><a href="https://css-tricks.com">CSS-Tricks</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML Guide</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>©<span id="currentyear"></span> 🏭 Eric Johnson 🏭 Idaho, USA</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 
 </html>
