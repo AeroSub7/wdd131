@@ -28,26 +28,33 @@ header {
     background-color: darkblue;
     color: white;
     padding: 1rem;
+    min-height: 5rem;
 }
 
 h2 {
     display: block;
     float: left;
+    clear: both;
 }
 
 nav {
-    text-align: right;
-    clear: right;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
 }
 
-ul {
+/*ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
-}
+}*/
+
 
 nav a {
     display: none;
@@ -55,7 +62,7 @@ nav a {
     color: white;
     text-align: right;
     font-size: 2rem;
-    padding: .5rem;
+    padding: 1rem;
 }
 
 nav a:hover {
@@ -64,6 +71,7 @@ nav a:hover {
 }
 
 main {
+    clear: both;
     padding: .5rem;
     max-width: 59em;
     margin: 0 auto;

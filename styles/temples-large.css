@@ -15,7 +15,7 @@
         display: block;
     }
 
-    ul {
+    nav {
         flex-direction: row;
         justify-content: space-around;
     }
