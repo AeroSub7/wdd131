@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images</title>
+</head>
+
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <img srcset="images/hero-large.webp 1500w, images/hero-medium.webp 1000w, images/hero-small.webp 500w"
+                    sizes="(width >= 1500px) 1500px, (width >= 1000px) 1000px, 500px" src="images/hero-small.webp"
+                    alt="Meridian Temple">
+            </picture>
+        </div>
+    </main>
+</body>
+
+</html>
