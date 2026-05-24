@@ -10,9 +10,14 @@
     box-sizing: border-box;
 }
 
+body {
+    width: 100%;
+}
+
 header {
     background-color: var(--primarycol);
     border-bottom: 1rem solid var(--secondarycol);
+    width: 100%;
 }
 
 h1 {
@@ -28,8 +33,7 @@ picture {
 }
 
 #hero {
-    width: 100vw;
-    height: auto;
+    width: 100%;
     border-bottom: .25rem solid var(--primarycol);
 }
 
