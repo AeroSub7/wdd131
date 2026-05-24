@@ -1,6 +1,6 @@
 @media (min-width: 600px) {
-    #weather::before {
-        content: ⛅;
+    #weather::after {
+        content: "⛅";
     }
 
     span {
