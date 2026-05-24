@@ -1,0 +1,40 @@
+@media (min-width: 600px) {
+    #weather::before {
+        content: ⛅;
+    }
+
+    span {
+        display: contents;
+    }
+
+    #weat-icon {
+        display: none;
+    }
+
+    main {
+        position: relative;
+    }
+
+    h2 {
+        background-color: var(--secondarycol);
+    }
+
+    section {
+        background-color: rgba(255, 255, 255, .7);
+    }
+
+    #data-part {
+        position: absolute;
+        top: 2rem;
+        left: .5rem;
+        width: 40vw;
+    }
+
+    #weather-part {
+        position: absolute;
+        bottom: 2rem;
+        right: .5rem;
+        width: 30vw;
+    }
+
+}

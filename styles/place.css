@@ -1,0 +1,73 @@
+:root {
+    --primarycol: darkblue;
+    --secondarycol: gold;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--primarycol);
+    border-bottom: 1rem solid var(--secondarycol);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: .5rem;
+}
+
+picture {
+    background-color: var(--primarycol);
+    margin: 0;
+
+}
+
+#hero {
+    width: 100vw;
+    height: auto;
+    border-bottom: .25rem solid var(--primarycol);
+}
+
+#weat-icon {
+    display: block;
+    width: 20vw;
+    margin: 0 auto;
+}
+
+section {
+    border: 1px solid rgba(0, 0, 0, .3);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#data-part {
+    border-bottom: none;
+}
+
+th {
+    text-align: end;
+    width: 50%;
+}
+
+td {
+    text-align: start;
+}
+
+span {
+    display: none;
+}
+
+footer {
+    background-color: var(--primarycol);
+    color: white;
+    text-align: center;
+    margin-top: -1px;
+    padding: .5rem;
+}
