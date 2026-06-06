@@ -1,0 +1,56 @@
+:root {
+    --maincolor: #FA9649;
+    --secondarycolor: #023821;
+    /* --secondarycolor: #5F668C; */
+    --headingfont: 'Times New Roman', Times, serif;
+    --bodyfont: Arial, Helvetica, sans-serif;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: var(--bodyfont);
+}
+
+header {
+    background-color: #FA9649;
+    color: black;
+    text-align: center;
+}
+
+
+h2 {
+    background-color: var(--secondarycolor);
+    color: white;
+}
+
+#color-main {
+    background-color: var(--maincolor);
+}
+
+#color-secondary {
+    background-color: var(--secondarycolor);
+    border: 1px solid black;
+    color: white;
+}
+
+h1,
+h2 {
+    font-family: var(--headingfont);
+    padding: .5rem;
+}
+
+p,
+li {
+    padding: .3rem;
+}
+
+#font {
+    font-family: var(--headingfont);
+}
