@@ -47,10 +47,16 @@ h2 {
 }
 
 p,
-li {
+li,
+img,
+figcaption {
     padding: .3rem;
 }
 
 #font {
     font-family: var(--headingfont);
+}
+
+footer {
+    text-align: center;
 }
