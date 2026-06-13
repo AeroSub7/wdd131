@@ -41,3 +41,5 @@ function optionCreate(product) {
 }
 
 products.forEach(optionCreate);
+
+let numVisits = Number(window.localStorage.getItem("numVisits-ls")) || 0;
