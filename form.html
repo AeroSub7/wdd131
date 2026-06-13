@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>Product Review</title>
     <meta name="author" content="Eric Johnson">
     <meta name="description" content="A Form that reviews a product, made for WDD131 class.">
     <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
     <script src="scripts/form.js" defer></script>
+
 </head>
 
 <body>
@@ -17,28 +19,29 @@
     </header>
     <main>
         <form action="review.html" method="get" class="productf">
-            <label>Product Name*
+            <label for="productname">Product Name*
                 <select name="productname" id="productname" required>
-                    <option value="" disabled>Select a Product ...</option>
+                    <option value="" disabled selected>Select a Product ...</option>
                 </select>
             </label>
             <div class="topdiv">Overall Rating*</div>
-            <label><input type="radio" name="rating" value="star1" id="star1" required>☆</label>
-            <label><input type="radio" name="rating" value="star2" id="star2" required>☆☆</label>
-            <label><input type="radio" name="rating" value="star3" id="star3" required>☆☆☆</label>
-            <label><input type="radio" name="rating" value="star4" id="star4" required>☆☆☆☆</label>
-            <label><input type="radio" name="rating" value="star5" id="star5" required>☆☆☆☆☆</label>
-            <label>Date of Installation*<input type="date" name="installation" id="installation" required></label>
+            <label for="star1"><input type="radio" name="rating" value="star1" id="star1" required>☆</label>
+            <label for="star2"><input type="radio" name="rating" value="star2" id="star2" required>☆☆</label>
+            <label for="star3"><input type="radio" name="rating" value="star3" id="star3" required>☆☆☆</label>
+            <label for="star4"><input type="radio" name="rating" value="star4" id="star4" required>☆☆☆☆</label>
+            <label for="star5"><input type="radio" name="rating" value="star5" id="star5" required>☆☆☆☆☆</label>
+            <label for="installation">Date of Installation*<input type="date" name="installation" id="installation"
+                    required></label>
             <div class="topdiv">Which features did you find useful in the product?</div>
             <div>(Check all that apply)</div>
-            <label><input type="checkbox" name="durability" id="durability">Durability</label>
-            <label><input type="checkbox" name="easeofuse" id="easeofuse">Ease of Use</label>
-            <label><input type="checkbox" name="performance" id="performance">Performance</label>
-            <label><input type="checkbox" name="design" id="design">Design</label>
-            <label>Written Review <span class="optional">(Optional)</span><textarea name="review" id="review"
-                    rows="3"></textarea></label>
-            <label>Your Name<span class="optional">(Optional)</span><input type="text" name="fullName" id="fullName"
-                    autocomplete="name"></label>
+            <label for="durability"><input type="checkbox" name="durability" id="durability">Durability</label>
+            <label for="easeofuse"><input type="checkbox" name="easeofuse" id="easeofuse">Ease of Use</label>
+            <label for="performance"><input type="checkbox" name="performance" id="performance">Performance</label>
+            <label for="design"><input type="checkbox" name="design" id="design">Design</label>
+            <label for="review">Written Review <span class="optional">(Optional)</span><textarea name="review"
+                    id="review" rows="3"></textarea></label>
+            <label for="fullName">Your Name<span class="optional">(Optional)</span><input type="text" name="fullName"
+                    id="fullName" autocomplete="name"></label>
             <input type="submit" value="Post Review">
         </form>
     </main>
