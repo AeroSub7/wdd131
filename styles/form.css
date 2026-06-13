@@ -1,0 +1,68 @@
+:root {
+    --
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.productf {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 400px;
+
+    margin: 1rem auto;
+}
+
+.productf label,
+.topdiv {
+    display: block;
+    padding-top: .9rem;
+}
+
+.productf select,
+.productf input[type="date"],
+.productf input[type="text"],
+.productf textarea {
+    background-color: #ffffff;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+}
+
+.productf input[type="submit"] {
+    border: none;
+    background-color: darkgreen;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: .8rem;
+    width: 100%;
+    max-width: 400px;
+    margin-top: .9rem;
+    font-size: 1.4rem;
+}
+
+.productf input[type="radio"],
+.productf input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.optional {
+    color: darkblue;
+}
